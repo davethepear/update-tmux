@@ -4,7 +4,7 @@ I created an alias in `.bash_aliases`...
 ```bash
 alias u='$HOME/scripts/update.sh'
 ```
-###Requires tmux - https://github.com/tmux/
+### Requires tmux - https://github.com/tmux/
 ```
 sudo apt install tmux
 ```
