@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 muxt=`tmux ls  2>/dev/null | awk '{ print substr($1, 1, length($1)-1) }'`
 if [ -z "$muxt" ]; then
 tmux new -A -s updating \; \
